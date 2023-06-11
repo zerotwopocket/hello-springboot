@@ -16,6 +16,19 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+	<repositories>
+		<repository>
+			<id>zerotwo</id>
+			<name>zerotwo</name>
+			<url>http://192.168.56.2:8081/repository/zerotwo/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 	<distributionManagement>
 		<snapshotRepository>
 			<id>zerotwo</id>
